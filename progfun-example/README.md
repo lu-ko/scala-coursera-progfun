@@ -66,7 +66,7 @@ scala> max(List(1,3,2))
 res1: Int = 3
 ```
 
-Using a Main Object
+**Using a Main Object**
 
 Another way to run your code is to create a new Main object that can be executed by the Java Virtual Machine.
 
