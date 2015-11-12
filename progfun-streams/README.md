@@ -160,7 +160,7 @@ You should implement the above example as a test case in the test suite BloxorzS
 
 While exploring a path, we will also track all the blocks we have seen so far, so as to not get lost in circles of movements (such as sequences of left-right-left-right). Implement a function newNeighborsOnly to this effect:
 ```scala
-	def newNeighborsOnly(neighbors: Stream[(Block, List[Move])], explored: Set[Block]): Stream[(Block, List[Move])] = ???
+def newNeighborsOnly(neighbors: Stream[(Block, List[Move])], explored: Set[Block]): Stream[(Block, List[Move])] = ???
 ```
 
 ## Example usage:

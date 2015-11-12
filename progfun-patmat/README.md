@@ -51,12 +51,13 @@ In Scala, a Huffman tree can be represented as follows:
 ```
 
 To begin, implement the following two (hint: very simple) functions using pattern matches on the code tree:
-1. weight which returns the total weight of a given Huffman tree.
+
+Weight which returns the total weight of a given Huffman tree.
 ```scala
 	def weight(tree: CodeTree): Int = tree match ...
 ```
 
-2. chars which returns the list of characters defined in a given Huffman tree.
+Chars which returns the list of characters defined in a given Huffman tree.
 ```scala
 	def chars(tree: CodeTree): List[Char] = tree match ...
 ```
@@ -85,35 +86,43 @@ To obtain an optimal tree from a list of characters, you have to define a functi
 ```
 
 Proceed with the following steps to break up this assignment into smaller parts (the handout template contains more detailed documentation):
-1. Begin by writing a function times which calculates the frequency of each character in the text:
+
+Begin by writing a function times which calculates the frequency of each character in the text:
 ```scala
 	def times(chars: List[Char]): List[(Char, Int)] = ...
 ```
-2. Then, write a function makeLeafList which generates a list containing all the leaves of the Huffman tree to be constructed (the case Leaf of the algebraic datatype CodeTree). The list should be ordered by ascending weights where the weight of a leaf is the number of times (or the frequency) it appears in the given text.
+
+Then, write a function makeLeafList which generates a list containing all the leaves of the Huffman tree to be constructed (the case Leaf of the algebraic datatype CodeTree). The list should be ordered by ascending weights where the weight of a leaf is the number of times (or the frequency) it appears in the given text.
 ```scala
 	def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = ...
 ```
-3. Write a simple function singleton which checks whether a list of code trees contains only one single tree.
+
+Write a simple function singleton which checks whether a list of code trees contains only one single tree.
 ```scala
 	def singleton(trees: List[CodeTree]): Boolean = ...
 ```
-4. Write a function combine which (1) removes the two trees with the lowest weight from the list constructed in the previous step, and (2) merges them by creating a new node of type Fork. Add this new tree to the list - which is now one element shorter - while preserving the order (by weight).
+
+Write a function combine which (1) removes the two trees with the lowest weight from the list constructed in the previous step, and (2) merges them by creating a new node of type Fork. Add this new tree to the list - which is now one element shorter - while preserving the order (by weight).
 ```scala
 	def combine(trees: List[CodeTree]): List[CodeTree] = ...
 ```
-5. Write a function until which calls the two functions defined above until this list contains only a single tree. This tree is the optimal coding tree. The function until can be used in the following way:
+
+Write a function until which calls the two functions defined above until this list contains only a single tree. This tree is the optimal coding tree. The function until can be used in the following way:
 ```scala
 	until(singleton, combine)(trees)
 ```
 where the argument trees is of the type List[CodeTree].
-6. Finally, use the functions defined above to implement the function createCodeTree which respects the signature shown above.
+
+Finally, use the functions defined above to implement the function createCodeTree which respects the signature shown above.
 
 
 ### Decoding
 
 Define the function decode which decodes a list of bits (which were already encoded using a Huffman tree), given the corresponding coding tree.
+```scala
 	type Bit = Int
 	def decode(tree: CodeTree, bits: List[Bit]): List[Char] = ...
+```
 
 Use this function and the frenchCode code tree to decode the bit sequence in secret. Store the resulting character sequence in decodedSecret.
 

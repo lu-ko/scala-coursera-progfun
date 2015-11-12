@@ -12,9 +12,7 @@
 
 ## The Assignment
 
-Download the "objsets.zip" handout archive file.
-
-In this assignment you will work with an object-oriented representations based on binary trees.
+Download the "objsets.zip" handout archive file. In this assignment you will work with an object-oriented representations based on binary trees.
 
 
 ## Object-Oriented Sets

@@ -29,49 +29,34 @@
 ## Assignments
 
 * Getting Started
-
-** Example Assignment
-
-** [progfun-example](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-example)
+  * Example Assignment
+  * [progfun-example](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-example)
 
 * Week 1: **Functions & Evaluations**
-
-** Recursion
-
-** [progfun-recfun](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-recfun)
+  * Recursion
+  * [progfun-recfun](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-recfun)
 
 * Week 2: **Higher Order Functions**
-
-** Functional Sets
-
-** [progfun-funsets](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-funsets)
+  * Functional Sets
+  * [progfun-funsets](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-funsets)
 
 * Week 3: **Data and Abstraction**
-
-** Object-Oriented Sets
-
-** [progfun-objsets](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-objsets)
+  * Object-Oriented Sets
+  * [progfun-objsets](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-objsets)
 
 * Week 4: **Types and Pattern Matching**
-
-** Huffman Coding
-
-** [progfun-patmat](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-patmat)
+  * Huffman Coding
+  * [progfun-patmat](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-patmat)
 
 * Week 5: **Lists**
-
-** No assignment
+  * No assignment
 
 * Week 6: **Collections**
-
-** Anagrams
-
-** [progfun-forcomp](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-forcomp)
+  * Anagrams
+  * [progfun-forcomp](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-forcomp)
 
 * Week 7: **Lazy Evaluation**
-
-** Bloxorz
-
-** [progfun-streams](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-streams)
+  * Bloxorz
+  * [progfun-streams](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-streams)
 
 
