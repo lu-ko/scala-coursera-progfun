@@ -1,13 +1,18 @@
-# Scala - Coursera.org - Functional Programming Principles in Scala
+# Scala - Coursera.org
 
-Training:	https://www.coursera.org/course/progfun
-Lector:		Martin Odersky
-Start Date:	Fri 22 Mar 2013 10:23 AM CET +0100
-Duration:	7 weeks
+## Functional Programming Principles in Scala
+
+**Training:** https://www.coursera.org/course/progfun
+
+**Lector:** Martin Odersky
+
+**Start Date:** Fri 22 Mar 2013 10:23 AM CET +0100
+
+**Duration:** 7 weeks
 
 ---------------------------------------------------------
 
-**Welcome to the Principles of Functional Programming in Scala class!**
+## Welcome to the Principles of Functional Programming in Scala class!
 
  Over the next seven weeks you will explore functional programming in a sequence of lectures, quizzes, and homework assignments. We will take you from the fundamental concepts of functional programming to practical solutions for challenging programming problems. This is the second iteration of the course; the first one was held in fall 2012. 50'000 students enrolled in that course and almost 10'000 completed it with a certificate. In fact, the course had by far the highest completion rate of any massive open online course.
 
@@ -21,37 +26,37 @@ Duration:	7 weeks
 
 ---------------------------------------------------------
 
-**Assignments:**
+## Assignments
 
-- Getting Started
-	Example Assignment
-	progfun-example
+* Getting Started
+** Example Assignment
+** [progfun-example](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-example)
 
-- Week 1: Functions & Evaluations
-	Recursion
-	progfun-recfun
+* Week 1: **Functions & Evaluations**
+** Recursion
+** [progfun-recfun](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-recfun)
 
-- Week 2: Higher Order Functions
-	Functional Sets
-	progfun-funsets
+* Week 2: **Higher Order Functions**
+** Functional Sets
+** [progfun-funsets](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-funsets)
 
-- Week 3: Data and Abstraction
-	Object-Oriented Sets
-	progfun-objsets
+* Week 3: **Data and Abstraction**
+** Object-Oriented Sets
+** [progfun-objsets](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-objsets)
 
-- Week 4: Types and Pattern Matching
-	Huffman Coding
-	progfun-patmat
+* Week 4: **Types and Pattern Matching**
+** Huffman Coding
+** [progfun-patmat](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-patmat)
 
-- Week 5: Lists
-	No assignment
+* Week 5: **Lists**
+** No assignment
 
-- Week 6: Collections
-	Anagrams
-	progfun-forcomp
+* Week 6: **Collections**
+** Anagrams
+** [progfun-forcomp](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-forcomp)
 
-- Week 7: Lazy Evaluation
-	Bloxorz
-	progfun-streams
+* Week 7: **Lazy Evaluation**
+** Bloxorz
+** [progfun-streams](https://github.com/lu-ko/scala-coursera-progfun/tree/master/progfun-streams)
 
 
