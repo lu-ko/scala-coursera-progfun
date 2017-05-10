@@ -4,7 +4,7 @@
 
 **Training:** https://www.coursera.org/course/progfun
 
-**Lector:** Martin Odersky
+**Lector (Organization):** Martin Odersky (École Polytechnique Fédérale de Lausanne)
 
 **Start Date:** Fri 22 Mar 2013 10:23 AM CET +0100
 
